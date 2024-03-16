@@ -68,7 +68,7 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "INSERT INTO `contactus` (`name`, `email`, `concern`, `dt`) VALUES ('$name', '$email', '$desc', current_timestamp())";
+        $sql = "INSERT INTO `contactus` (`name`, `email`, `age`, `DOB`) VALUES ('$name', '$email', '$age', '$DOB')";
         $result = mysqli_query($conn, $sql);
  
         if($result){
