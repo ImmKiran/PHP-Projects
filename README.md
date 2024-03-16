@@ -1,4 +1,4 @@
-# Form control 
+### Form control 
 
 ## Overview
 This is a web application project  i have developed for the assignment task which was given by GKB Labs. This web application that allows users to input data, validate it, store it in a database, retrieve it, and display it in a table format.. The application is built using Bootstrap, PHP and JavaScript 
@@ -39,7 +39,7 @@ This is a web application project  i have developed for the assignment task whic
       $database = "contacts";
 
  4. I have created a connection using MySQLi and we need to insert the SQL query there
-         "INSERT INTO `contactus` (`name`, `email`, `concern`, `dt`) VALUES ('$name', '$email', '$desc', current_timestamp())";
+         "INSERT INTO `contactus` (`name`, `email`, `age`, `dob`) VALUES ('$name', '$email', '$age', '$DOB)";
 
  5. Data Retrieval:
 I have created another PHP page that retrieves the data from the database  which was submitted by the user and displays it in a tabular format (HTML table).
